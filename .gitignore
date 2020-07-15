@@ -1,0 +1,17 @@
+.cache
+.idea
+.vscode
+lerna-debug.log
+coverage
+**/node_modules
+
+build
+release*
+storage
+!**/src/storage
+.env*
+
+packages/*/build
+packages/*/release*
+packages/*/storage
+packages/*/.env*
